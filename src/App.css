@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.table { border-collapse: collapse; width: 100% }
+.tr { border: none; }
+.th {
+  border-right: solid 5px white;
+  border-left: solid 5px white;
+}
+
+button{
+  color:#050;
+  font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+  background-color:#fed;
+  border:1px solid;
+  border-color: #696 #363 #363 #696;
+}
