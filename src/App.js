@@ -179,6 +179,23 @@ function App() {
   const [accessoryLeft, setAccessoryLeft] = useState("magicAlien");
   const [accessoryRight, setAccessoryRight] = useState("none");
 
+  const bodyPartToUpdateFunctionMap = {
+    back: setBack,
+    body: setBody,
+    top: setTop,
+    down: setDown,
+    shoes: setShoes,
+    head: setHead,
+    eyes: setEyes,
+    eyebrows: setEyebrows,
+    mouth: setMouth,
+    hair: setHair,
+    facialHair: setFacialHair,
+    headGear: setHeadGear,
+    accessoryLeft: setAccessoryLeft,
+    accessoryRight: setAccessoryRight,
+  };
+
   const draw = (ctx, frameCount) => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
@@ -209,134 +226,23 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>ATM Character Generator</p>
-        <Canvas draw={draw} options={{ width: 512, height: 512 }} />
-
-        <table className="table">
-          <tr className="tr">
-            <th className="th">back</th>
-            <th className="th">body</th>
-            <th className="th">top</th>
-            <th className="th">down</th>
-            <th className="th">shoes</th>
-            <th className="th">head</th>
-            <th className="th">eyes</th>
-            <th className="th">eyebrows</th>
-            <th className="th">mouth</th>
-            <th className="th">hair</th>
-            <th className="th">facialHair</th>
-            <th className="th">headGear</th>
-            <th className="th">accessoryLeft</th>
-            <th className="th">accessoryRight</th>
-          </tr>
-          <tr>
-            <td>
-              <button onClick={() => setBack("capeGreen")}>Green cape</button>
-              <button onClick={() => setBack("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setBody("blueFemale")}>Blue 1</button>
-              <button onClick={() => setBody("blueMale")}>Blue 2</button>
-              <button onClick={() => setBody("greenFemale")}>Green 1</button>
-              <button onClick={() => setBody("greenMale")}>Green 2</button>
-              <button onClick={() => setBody("skeleton")}>Skeleton</button>
-              <button onClick={() => setBody("whiteFemale")}>White 1</button>
-              <button onClick={() => setBody("whiteMale")}>White 2</button>
-            </td>
-            <td>
-              <button onClick={() => setTop("armorBarbarian")}>
-                Barbarian
-              </button>
-              <button onClick={() => setTop("armorOrc")}>Orc</button>
-              <button onClick={() => setTop("suitSpace")}>Space</button>
-              <button onClick={() => setTop("vestRed")}>Vest Red</button>
-              <button onClick={() => setTop("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setDown("armorBarbarian")}>
-                Barbarian
-              </button>
-              <button onClick={() => setDown("orcLoincloth")}>Orc</button>
-              <button onClick={() => setDown("suitSpace")}>Space</button>
-              <button onClick={() => setDown("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setShoes("barbarian")}>Barbarian</button>
-              <button onClick={() => setShoes("black")}>Black</button>
-              <button onClick={() => setShoes("orcBoots")}>Orc</button>
-              <button onClick={() => setShoes("suitSpace")}>Space</button>
-              <button onClick={() => setShoes("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setHead("blue1")}>Blue</button>
-              <button onClick={() => setHead("orc")}>Orc</button>
-              <button onClick={() => setHead("skeleton")}>Skeleton</button>
-              <button onClick={() => setHead("white1")}>White</button>
-            </td>
-            <td>
-              <button onClick={() => setEyes("alienBlue")}>Alien Blue</button>
-              <button onClick={() => setEyes("skeleton")}>Skeleton</button>
-              <button onClick={() => setEyes("type2Lightblue")}>
-                Lightblue
-              </button>
-              <button onClick={() => setEyes("type1Blue")}>Blue</button>
-              <button onClick={() => setEyes("type1Orc")}>Orc</button>
-              <button onClick={() => setEyes("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setEyebrows("type1Black")}>Black 1</button>
-              <button onClick={() => setEyebrows("type2Black")}>Black 2</button>
-              <button onClick={() => setEyebrows("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setMouth("mouthSmile1")}>Smile</button>
-              <button onClick={() => setMouth("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setHair("blonde1")}>Blonde</button>
-              <button onClick={() => setHair("brown1")}>Brown</button>
-              <button onClick={() => setHair("ponytail")}>Ponytail</button>
-              <button onClick={() => setHair("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setFacialHair("type1Brown")}>Brown</button>
-              <button onClick={() => setFacialHair("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setHeadGear("armorBarbarian")}>
-                Barbarian
-              </button>
-              <button onClick={() => setHeadGear("helmetAlien")}>Alien</button>
-              <button onClick={() => setHeadGear("bandanaRed")}>
-                Red Bandana
-              </button>
-              <button onClick={() => setHeadGear("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setAccessoryLeft("axeOrc")}>
-                Orc Axe
-              </button>
-              <button onClick={() => setAccessoryLeft("magicAlien")}>
-                Alien
-              </button>
-              <button onClick={() => setAccessoryLeft("sabreSkeleton")}>
-                Skeleton Sabre
-              </button>
-              <button onClick={() => setAccessoryLeft("spaceStaff")}>
-                Space Staff
-              </button>
-              <button onClick={() => setAccessoryLeft("swordBarbarian")}>
-                Barbarian sword
-              </button>
-              <button onClick={() => setAccessoryLeft("none")}>None</button>
-            </td>
-            <td>
-              <button onClick={() => setAccessoryRight("shieldBarbarian")}>
-                Barbarian shield
-              </button>
-              <button onClick={() => setAccessoryRight("none")}>None</button>
-            </td>
-          </tr>
-        </table>
+        <div>
+          <Canvas draw={draw} options={{ width: 512, height: 512 }} />
+          {Object.entries(images).map(([bodyPartName, bodyPartyImages]) => (
+            <div>
+              <p>{bodyPartName}</p>
+              {Object.entries(bodyPartyImages).map(([name, image]) => (
+                <button
+                  onClick={() =>
+                    bodyPartToUpdateFunctionMap[bodyPartName](name)
+                  }
+                >
+                  {name}
+                </button>
+              ))}
+            </div>
+          ))}
+        </div>
       </header>
     </div>
   );
