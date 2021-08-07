@@ -1,4 +1,4 @@
-import useCanvas from './useCanvas';
+import useCanvas from "./useCanvas";
 
 const Canvas = (props) => {
   const { draw, options, ...rest } = props;
