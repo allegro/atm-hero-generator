@@ -37,21 +37,34 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>ATM Character Generator</p>
-        <div>
-          <Canvas draw={draw} options={{ width: 512, height: 512 }} />
-          {Object.entries(BodyParts).map(([bodyPartName, bodyPartyImages]) => (
-            <div>
-              <p>{bodyPartName}</p>
-              {Object.entries(bodyPartyImages).map(([name, image]) => (
-                <button
-                  onClick={() => bodyPartsState[bodyPartName]["setState"](name)}
-                >
-                  {name}
-                </button>
-              ))}
-            </div>
-          ))}
+        <div style={{ display: "flex", flexWrap: "wrap" }}>
+          <div style={{ width: "512px" }}>
+            <Canvas draw={draw} options={{ width: 512, height: 512 }} />
+          </div>
+          <div style={{ width: "512px", height: "800px", overflow: "scroll" }}>
+            {Object.entries(BodyParts).map(
+              ([bodyPartName, bodyPartyImages]) => (
+                <div>
+                  <p>{bodyPartName}</p>
+                  {Object.entries(bodyPartyImages).map(([name, image]) => (
+                    <button
+                      style={{
+                        width: "256px",
+                        height: "256px",
+                        backgroundImage: `url(${image.src})`,
+                        backgroundPosition: "center",
+                      }}
+                      onClick={() =>
+                        bodyPartsState[bodyPartName]["setState"](name)
+                      }
+                    >
+                      {name}
+                    </button>
+                  ))}
+                </div>
+              )
+            )}
+          </div>
         </div>
       </header>
     </div>
