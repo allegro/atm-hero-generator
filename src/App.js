@@ -205,21 +205,21 @@ function App() {
     ctx.fillStyle = "#aa8e29";
     ctx.fill();
 
-    ctx.drawImage(images["back"][back], 0, 0, 512, 512);
-    ctx.drawImage(images["body"][body], 0, 0, 512, 512);
-    ctx.drawImage(images["top"][top], 0, 0, 512, 512);
-    ctx.drawImage(images["down"][down], 0, 0, 512, 512);
-    ctx.drawImage(images["shoes"][shoes], 0, 0, 512, 512);
-    ctx.drawImage(images["head"][head], 0, 0, 512, 512);
-    ctx.drawImage(images["eyes"][eyes], 0, 0, 512, 512);
-    ctx.drawImage(images["eyebrows"][eyebrows], 0, 0, 512, 512);
-    // ctx.drawImage(images['eyegear'][eyegear], 0, 0, 512, 512);
-    ctx.drawImage(images["mouth"][mouth], 0, 0, 512, 512);
-    ctx.drawImage(images["hair"][hair], 0, 0, 512, 512);
-    ctx.drawImage(images["facialHair"][facialHair], 0, 0, 512, 512);
-    ctx.drawImage(images["headGear"][headGear], 0, 0, 512, 512);
-    ctx.drawImage(images["accessoryLeft"][accessoryLeft], 0, 0, 512, 512);
-    ctx.drawImage(images["accessoryRight"][accessoryRight], 0, 0, 512, 512);
+    ctx.drawImage(images["back"][back], 0, 0);
+    ctx.drawImage(images["body"][body], 0, 0);
+    ctx.drawImage(images["top"][top], 0, 0);
+    ctx.drawImage(images["down"][down], 0, 0);
+    ctx.drawImage(images["shoes"][shoes], 0, 0);
+    ctx.drawImage(images["head"][head], 0, 0);
+    ctx.drawImage(images["eyes"][eyes], 0, 0);
+    ctx.drawImage(images["eyebrows"][eyebrows], 0, 0);
+    // ctx.drawImage(images['eyegear'][eyegear], 0, 0);
+    ctx.drawImage(images["mouth"][mouth], 0, 0);
+    ctx.drawImage(images["hair"][hair], 0, 0);
+    ctx.drawImage(images["facialHair"][facialHair], 0, 0);
+    ctx.drawImage(images["headGear"][headGear], 0, 0);
+    ctx.drawImage(images["accessoryLeft"][accessoryLeft], 0, 0);
+    ctx.drawImage(images["accessoryRight"][accessoryRight], 0, 0);
   };
 
   return (
