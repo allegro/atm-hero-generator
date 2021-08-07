@@ -66,8 +66,9 @@ const createImage = (src) => {
 };
 
 const none = createImage(noneImg);
+const EmptyBodyPart = none;
 
-const bodyParts = {
+const BodyParts = {
   back: {
     capeGreen: createImage(backCapeGreen),
     none: none,
@@ -120,7 +121,7 @@ const bodyParts = {
     type2Black: createImage(eyebrowsType2Black),
     none: none,
   },
-  eyegear: {},
+  eyegear: { none },
   mouth: {
     mouthSmile1: createImage(mouthSmile1),
     none: none,
@@ -155,4 +156,21 @@ const bodyParts = {
   },
 };
 
-export default bodyParts;
+const DefaultBodyParts = {
+  back: "none",
+  body: "skeleton",
+  top: "vestRed",
+  down: "none",
+  shoes: "suitSpace",
+  head: "skeleton",
+  eyes: "skeleton",
+  eyebrows: "none",
+  mouth: "none",
+  hair: "none",
+  facialHair: "none",
+  headGear: "bandanaRed",
+  accessoryLeft: "sabreSkeleton",
+  accessoryRight: "shieldBarbarian",
+};
+
+export { BodyParts, EmptyBodyPart, DefaultBodyParts };
