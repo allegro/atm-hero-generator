@@ -49,10 +49,11 @@ function App() {
                   {Object.entries(bodyPartyImages).map(([name, image]) => (
                     <button
                       style={{
-                        width: "256px",
-                        height: "256px",
+                        width: "128px",
+                        height: "128px",
                         backgroundImage: `url(${image.src})`,
                         backgroundPosition: "center",
+                        backgroundSize: "200%",
                       }}
                       onClick={() =>
                         bodyPartsState[bodyPartName]["setState"](name)
