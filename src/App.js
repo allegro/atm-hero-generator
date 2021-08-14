@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import { BodyParts, EmptyBodyPart, DefaultBodyParts } from "./characters";
 import Canvas from "./canvas/Canvas";
-import download from "./canvas/utils";
 
 import "./App.css";
 
@@ -68,16 +67,6 @@ function App() {
             )}
           </div>
         </div>
-        <a id="download" download="triangle.png" key="anchor">
-          <button
-            id="download-button"
-            key="download-button"
-            type="button"
-            onClick={() => download()}
-          >
-            Download character
-          </button>
-        </a>
       </header>
     </div>
   );
