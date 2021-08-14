@@ -10,19 +10,19 @@ const HeroScreen = (props) => {
   const draw = (ctx, frameCount) => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
-    ctx.fillStyle = "#000000";
-    ctx.beginPath();
-    ctx.arc(256, 256, 100 * Math.sin(frameCount * 0.03) ** 2, 0, 2 * Math.PI);
-    ctx.fillStyle = "#aa8e29";
-    ctx.fill();
-
     for (const bodyPartName in bodyPartState) {
       const bodyPartVariant = bodyPartState[bodyPartName];
       let variantImage = bodyParts[bodyPartName][bodyPartVariant];
       if (!variantImage) {
         variantImage = emptyBodyPart;
       }
-      ctx.drawImage(variantImage, 0, 0);
+      ctx.drawImage(
+        variantImage,
+        -2 * Math.sin(frameCount * 0.08),
+        -2 * Math.sin(frameCount * 0.08),
+        512 + 4 * Math.sin(frameCount * 0.08),
+        512 + 4 * Math.sin(frameCount * 0.08)
+      );
     }
   };
 
