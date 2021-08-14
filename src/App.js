@@ -5,15 +5,19 @@ import Canvas from "./canvas/Canvas";
 
 import "./App.css";
 import BodyPartChooser from "./components/BodyPartChooser";
+import BodyPartVariantChooser from "./components/BodyPartVariantChooser";
 
 function App() {
-  const bodyPartsState = {};
+  const bodyPartState = {};
+  const bodyPartSetState = {};
+
   for (const bodyPartName in BodyParts) {
     // we iterate over immutable object, thus the order
     // of useState calls is perserved on every rerender
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [state, setState] = useState(DefaultBodyParts[bodyPartName]);
-    bodyPartsState[bodyPartName] = { state, setState };
+    bodyPartState[bodyPartName] = state;
+    bodyPartSetState[bodyPartName] = setState;
   }
 
   const [selectedBodyPart, selectBodyPart] = useState("back");
@@ -27,8 +31,8 @@ function App() {
     ctx.fillStyle = "#aa8e29";
     ctx.fill();
 
-    for (const bodyPartName in bodyPartsState) {
-      const bodyPartVariant = bodyPartsState[bodyPartName]["state"];
+    for (const bodyPartName in bodyPartState) {
+      const bodyPartVariant = bodyPartState[bodyPartName];
       let variantImage = BodyParts[bodyPartName][bodyPartVariant];
       if (!variantImage) {
         variantImage = EmptyBodyPart;
@@ -49,34 +53,10 @@ function App() {
             selectBodyPart={selectBodyPart}
             bodyPartList={Object.keys(DefaultBodyParts)}
           />
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              width: "512px",
-              flexDirection: "row",
-              justifyContent: "start",
-            }}
-          >
-            {Object.entries(BodyParts[selectedBodyPart]).map(
-              ([name, image]) => (
-                <button
-                  style={{
-                    width: "128px",
-                    height: "128px",
-                    backgroundImage: `url(${image.src})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "200%",
-                  }}
-                  onClick={() =>
-                    bodyPartsState[selectedBodyPart]["setState"](name)
-                  }
-                >
-                  {name}
-                </button>
-              )
-            )}
-          </div>
+          <BodyPartVariantChooser
+            bodyPartVariants={BodyParts[selectedBodyPart]}
+            selectVariant={bodyPartSetState[selectedBodyPart]}
+          />
         </div>
       </header>
     </div>

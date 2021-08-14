@@ -1,0 +1,14 @@
+.VariantChooser-container {
+  width: 512px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.VariantChooser-button {
+  width: 128px;
+  height: 128px;
+  background-position: center;
+  background-size: 200%;
+}
