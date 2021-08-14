@@ -4,6 +4,7 @@ import { BodyParts, EmptyBodyPart, DefaultBodyParts } from "./characters";
 import Canvas from "./canvas/Canvas";
 
 import "./App.css";
+import BodyPartChooser from "./components/BodyPartChooser";
 
 function App() {
   const bodyPartsState = {};
@@ -14,6 +15,8 @@ function App() {
     const [state, setState] = useState(DefaultBodyParts[bodyPartName]);
     bodyPartsState[bodyPartName] = { state, setState };
   }
+
+  const [selectedBodyPart, selectBodyPart] = useState("back");
 
   const draw = (ctx, frameCount) => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
@@ -37,32 +40,40 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", alignItems: "start" }}>
           <div style={{ width: "512px" }}>
             <Canvas draw={draw} options={{ width: 512, height: 512 }} />
           </div>
-          <div style={{ width: "512px", height: "800px", overflow: "scroll" }}>
-            {Object.entries(BodyParts).map(
-              ([bodyPartName, bodyPartyImages]) => (
-                <div>
-                  <p>{bodyPartName}</p>
-                  {Object.entries(bodyPartyImages).map(([name, image]) => (
-                    <button
-                      style={{
-                        width: "128px",
-                        height: "128px",
-                        backgroundImage: `url(${image.src})`,
-                        backgroundPosition: "center",
-                        backgroundSize: "200%",
-                      }}
-                      onClick={() =>
-                        bodyPartsState[bodyPartName]["setState"](name)
-                      }
-                    >
-                      {name}
-                    </button>
-                  ))}
-                </div>
+          <BodyPartChooser
+            selectedBodyPart={selectedBodyPart}
+            selectBodyPart={selectBodyPart}
+            bodyPartList={Object.keys(DefaultBodyParts)}
+          />
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              width: "512px",
+              flexDirection: "row",
+              justifyContent: "start",
+            }}
+          >
+            {Object.entries(BodyParts[selectedBodyPart]).map(
+              ([name, image]) => (
+                <button
+                  style={{
+                    width: "128px",
+                    height: "128px",
+                    backgroundImage: `url(${image.src})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "200%",
+                  }}
+                  onClick={() =>
+                    bodyPartsState[selectedBodyPart]["setState"](name)
+                  }
+                >
+                  {name}
+                </button>
               )
             )}
           </div>
