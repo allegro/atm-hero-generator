@@ -1,8 +1,10 @@
+import "./BodyPartChooser.css";
+
 const BodyPartChooser = (props) => {
   const { selectedBodyPart, selectBodyPart, bodyPartList } = props;
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div className="Chooser-container">
       {bodyPartList.map((bodyPart) => {
         return (
           <button

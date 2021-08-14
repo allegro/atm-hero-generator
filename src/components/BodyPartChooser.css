@@ -1,0 +1,8 @@
+.Chooser-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.selected {
+  background-color: aqua;
+}
