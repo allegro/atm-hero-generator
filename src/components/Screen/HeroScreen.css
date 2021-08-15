@@ -11,6 +11,7 @@ button.download {
   width: 100px;
   height: 66px;
   background-image: url(./btn_download_off.png);
+  background-color: #282c34;
 }
 
 button.download:hover {
