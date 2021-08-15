@@ -9,10 +9,12 @@ const BodyPartVariantChooser = (props) => {
         <button
           className="VariantChooser-button"
           key={name}
-          style={{ backgroundImage: `url(${image.src})` }}
           onClick={() => selectVariant(name)}
         >
-          {name}
+          <div
+            className="VariantChooser-button-img"
+            style={{ backgroundImage: `url(${image.src})` }}
+          ></div>
         </button>
       ))}
     </div>

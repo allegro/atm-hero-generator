@@ -1,14 +1,37 @@
 .VariantChooser-container {
-  width: 512px;
+  background-color: #5ba058;
+  width: 250px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
+  padding-top: 10px;
 }
 
 .VariantChooser-button {
-  width: 128px;
-  height: 128px;
+  width: 78px;
+  height: 76px;
+  background-image: url(./btn_item_off.png);
+  background-color: #5ba058;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.VariantChooser-button:hover {
+  background-image: url(./btn_item_on.png);
+}
+
+.VariantChooser-button-img {
+  width: 52px;
+  height: 52px;
   background-position: center;
   background-size: 200%;
+  background-color: #5ba058;
+}
+
+.VariantChooser-button:hover > .VariantChooser-button-img {
+  background-color: #8cbf6e;
 }
