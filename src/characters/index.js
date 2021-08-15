@@ -207,20 +207,20 @@ const BodyParts = {
 };
 
 const DefaultBodyParts = {
-  back: "none",
-  body: "skeleton",
+  head: "pale",
+  body: "paleMale",
   top: "vestRed",
   down: "none",
+  eyes: "type1Vampire",
+  eyebrows: "type2Black",
+  mouth: "mouthSmile1",
+  hair: "vampireBlack",
+  headGear: "none",
   shoes: "suitSpace",
-  head: "skeleton",
-  eyes: "skeleton",
-  eyebrows: "none",
-  mouth: "none",
-  hair: "none",
   facialHair: "none",
-  headGear: "bandanaRed",
   accessoryLeft: "sabreSkeleton",
   accessoryRight: "shieldBarbarian",
+  back: "none",
 };
 
 export { BodyParts, EmptyBodyPart, DefaultBodyParts };
