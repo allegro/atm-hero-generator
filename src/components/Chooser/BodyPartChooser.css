@@ -1,0 +1,158 @@
+.Chooser-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #5ba058;
+  padding: 10px;
+}
+
+.Chooser-container button {
+  width: 118px;
+  height: 22px;
+  border: 0;
+  padding: 0;
+  margin-bottom: 2px;
+}
+
+button.back {
+  background-image: url(./BodyPartButtons/btn_back_off.png);
+}
+
+button.back:hover,
+button.back.selected {
+  background-image: url(./BodyPartButtons/btn_back_on.png);
+}
+
+button.background {
+  background-image: url(./BodyPartButtons/btn_background_off.png);
+}
+
+button.background:hover,
+button.background.selected {
+  background-image: url(./BodyPartButtons/btn_background_on.png);
+}
+
+button.body {
+  background-image: url(./BodyPartButtons/btn_body_off.png);
+}
+
+button.body:hover,
+button.body.selected {
+  background-image: url(./BodyPartButtons/btn_body_on.png);
+}
+
+button.down {
+  background-image: url(./BodyPartButtons/btn_down_off.png);
+}
+
+button.down:hover,
+button.down.selected {
+  background-image: url(./BodyPartButtons/btn_down_on.png);
+}
+
+button.eyebrows {
+  background-image: url(./BodyPartButtons/btn_eyebrows_off.png);
+}
+
+button.eyebrows:hover,
+button.eyebrows.selected {
+  background-image: url(./BodyPartButtons/btn_eyebrows_on.png);
+}
+
+button.eyegear {
+  background-image: url(./BodyPartButtons/btn_eyegear_off.png);
+}
+
+button.eyegear:hover,
+button.eyegear.selected {
+  background-image: url(./BodyPartButtons/btn_eyegear_on.png);
+}
+
+button.eyes {
+  background-image: url(./BodyPartButtons/btn_eyes_off.png);
+}
+
+button.eyes:hover,
+button.eyes.selected {
+  background-image: url(./BodyPartButtons/btn_eyes_on.png);
+}
+
+button.facialHair {
+  background-image: url(./BodyPartButtons/btn_facialhair_off.png);
+}
+
+button.facialHair:hover,
+button.facialHair.selected {
+  background-image: url(./BodyPartButtons/btn_facialhair_on.png);
+}
+
+button.hair {
+  background-image: url(./BodyPartButtons/btn_hair_off.png);
+}
+
+button.hair:hover,
+button.hair.selected {
+  background-image: url(./BodyPartButtons/btn_hair_on.png);
+}
+
+button.head {
+  background-image: url(./BodyPartButtons/btn_head_off.png);
+}
+
+button.head:hover,
+button.head.selected {
+  background-image: url(./BodyPartButtons/btn_head_on.png);
+}
+
+button.headGear {
+  background-image: url(./BodyPartButtons/btn_headgear_off.png);
+}
+
+button.headGear:hover,
+button.headGear.selected {
+  background-image: url(./BodyPartButtons/btn_headgear_on.png);
+}
+
+button.accessoryLeft {
+  background-image: url(./BodyPartButtons/btn_lefthand_off.png);
+}
+
+button.accessoryLeft:hover,
+button.accessoryLeft.selected {
+  background-image: url(./BodyPartButtons/btn_lefthand_on.png);
+}
+
+button.accessoryRight {
+  background-image: url(./BodyPartButtons/btn_righthand_off.png);
+}
+
+button.accessoryRight:hover,
+button.accessoryRight.selected {
+  background-image: url(./BodyPartButtons/btn_righthand_on.png);
+}
+
+button.mouth {
+  background-image: url(./BodyPartButtons/btn_mouth_off.png);
+}
+
+button.mouth:hover,
+button.mouth.selected {
+  background-image: url(./BodyPartButtons/btn_mouth_on.png);
+}
+
+button.shoes {
+  background-image: url(./BodyPartButtons/btn_shoes_off.png);
+}
+
+button.shoes:hover,
+button.shoes.selected {
+  background-image: url(./BodyPartButtons/btn_shoes_on.png);
+}
+
+button.top {
+  background-image: url(./BodyPartButtons/btn_top_off.png);
+}
+
+button.top:hover,
+button.top.selected {
+  background-image: url(./BodyPartButtons/btn_top_on.png);
+}

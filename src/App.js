@@ -4,8 +4,8 @@ import { BodyParts, EmptyBodyPart, DefaultBodyParts } from "./characters";
 import HeroScreen from "./components/Screen/HeroScreen";
 
 import "./App.css";
-import BodyPartChooser from "./components/BodyPartChooser";
-import BodyPartVariantChooser from "./components/BodyPartVariantChooser";
+import BodyPartChooser from "./components/Chooser/BodyPartChooser";
+import BodyPartVariantChooser from "./components/Chooser/BodyPartVariantChooser";
 
 function App() {
   const bodyPartState = {};

@@ -10,10 +10,10 @@ const BodyPartChooser = (props) => {
           <button
             key={bodyPart}
             onClick={() => selectBodyPart(bodyPart)}
-            className={selectedBodyPart === bodyPart ? "selected" : ""}
-          >
-            {bodyPart}
-          </button>
+            className={
+              selectedBodyPart === bodyPart ? `${bodyPart} selected` : bodyPart
+            }
+          />
         );
       })}
     </div>
