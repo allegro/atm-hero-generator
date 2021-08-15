@@ -1,3 +1,18 @@
 .HeroScreen-container {
   width: 512px;
+  height: 512px;
+  background-image: url(./monitor.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #2b90d4;
+}
+
+button.download {
+  width: 100px;
+  height: 66px;
+  background-image: url(./btn_download_off.png);
+}
+
+button.download:hover {
+  background-image: url(./btn_download_on.png);
 }
