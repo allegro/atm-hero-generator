@@ -20,8 +20,8 @@ const HeroScreen = (props) => {
         variantImage,
         -2 * Math.sin(frameCount * 0.08),
         -2 * Math.sin(frameCount * 0.08),
-        512 + 4 * Math.sin(frameCount * 0.08),
-        512 + 4 * Math.sin(frameCount * 0.08)
+        326 + 4 * Math.sin(frameCount * 0.08),
+        310 + 4 * Math.sin(frameCount * 0.08)
       );
     }
   };

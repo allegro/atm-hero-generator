@@ -30,7 +30,7 @@ function App() {
             bodyParts={BodyParts}
             bodyPartState={bodyPartState}
             emptyBodyPart={EmptyBodyPart}
-            options={{ width: 512, height: 512 }}
+            options={{ width: 326, height: 310 }}
           />
           <BodyPartChooser
             selectedBodyPart={selectedBodyPart}
