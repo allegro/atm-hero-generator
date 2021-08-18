@@ -75,12 +75,12 @@ button.eyes.selected {
   background-image: url(./BodyPartButtons/btn_eyes_on.png);
 }
 
-button.facialHair {
+button.facial_hair {
   background-image: url(./BodyPartButtons/btn_facialhair_off.png);
 }
 
-button.facialHair:hover,
-button.facialHair.selected {
+button.facial_hair:hover,
+button.facial_hair.selected {
   background-image: url(./BodyPartButtons/btn_facialhair_on.png);
 }
 
@@ -102,30 +102,30 @@ button.head.selected {
   background-image: url(./BodyPartButtons/btn_head_on.png);
 }
 
-button.headGear {
+button.headgear {
   background-image: url(./BodyPartButtons/btn_headgear_off.png);
 }
 
-button.headGear:hover,
-button.headGear.selected {
+button.headgear:hover,
+button.headgear.selected {
   background-image: url(./BodyPartButtons/btn_headgear_on.png);
 }
 
-button.accessoryLeft {
+button.accessory_left {
   background-image: url(./BodyPartButtons/btn_lefthand_off.png);
 }
 
-button.accessoryLeft:hover,
-button.accessoryLeft.selected {
+button.accessory_left:hover,
+button.accessory_left.selected {
   background-image: url(./BodyPartButtons/btn_lefthand_on.png);
 }
 
-button.accessoryRight {
+button.accessory_right {
   background-image: url(./BodyPartButtons/btn_righthand_off.png);
 }
 
-button.accessoryRight:hover,
-button.accessoryRight.selected {
+button.accessory_right:hover,
+button.accessory_right.selected {
   background-image: url(./BodyPartButtons/btn_righthand_on.png);
 }
 
