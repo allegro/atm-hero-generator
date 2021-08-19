@@ -26,8 +26,8 @@
 
 .VariantChooser-button img {
   object-fit: cover;
-  max-width: "52px";
-  max-height: "52px";
+  max-width: 52px;
+  max-height: 52px;
 }
 
 .VariantChooser-button:hover > .VariantChooser-button-img {

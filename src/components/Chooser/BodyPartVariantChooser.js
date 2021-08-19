@@ -13,14 +13,7 @@ const BodyPartVariantChooser = (props) => {
           key={name}
           onClick={() => selectVariant(name)}
         >
-          <img
-            style={{
-              objectFit: "cover",
-              maxWidth: "52px",
-              maxHeight: "52px",
-            }}
-            src={image.src}
-          />
+          <img src={image.src} alt={name} />
         </button>
       ))}
     </div>
