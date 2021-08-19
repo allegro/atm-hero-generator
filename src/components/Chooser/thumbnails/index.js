@@ -417,6 +417,7 @@ const Thumbnails = {
     back_tail_fur_grey: createImage(back_tail_fur_grey),
     back_tail_fur_orange: createImage(back_tail_fur_orange),
     back_tail_lizard: createImage(back_tail_lizard),
+    none: null,
   },
   body: {
     body_black_female: createImage(body_black_female),
@@ -495,6 +496,7 @@ const Thumbnails = {
     top_wizardrobes_blue: createImage(top_wizardrobes_blue),
     top_wizardrobes_green: createImage(top_wizardrobes_green),
     top_wizardrobes_purple: createImage(top_wizardrobes_purple),
+    none: null,
   },
   down: {
     down_adventure: createImage(down_adventure),
@@ -519,6 +521,7 @@ const Thumbnails = {
     down_wizardrobes_blue: createImage(down_wizardrobes_blue),
     down_wizardrobes_green: createImage(down_wizardrobes_green),
     down_wizardrobes_purple: createImage(down_wizardrobes_purple),
+    none: null,
   },
   shoes: {
     shoes_barbarian: createImage(shoes_barbarian),
@@ -537,6 +540,7 @@ const Thumbnails = {
     shoes_sandals_red: createImage(shoes_sandals_red),
     shoes_silver: createImage(shoes_silver),
     shoes_suit_space: createImage(shoes_suit_space),
+    none: null,
   },
   head: {
     head_black: createImage(head_black),
@@ -613,6 +617,7 @@ const Thumbnails = {
     eyebrows_type5_red: createImage(eyebrows_type5_red),
     eyebrows_unibrew: createImage(eyebrows_unibrew),
     eyebrows_unimpressed: createImage(eyebrows_unimpressed),
+    none: null,
   },
   eyegear: {
     eyegear_aviator: createImage(eyegear_aviator),
@@ -625,6 +630,7 @@ const Thumbnails = {
     eyegear_monockle: createImage(eyegear_monockle),
     eyegear_neo: createImage(eyegear_neo),
     eyegear_rave_green: createImage(eyegear_rave_green),
+    none: null,
   },
   mouth: {
     mouth_bummed: createImage(mouth_bummed),
@@ -691,6 +697,7 @@ const Thumbnails = {
     hair_type3_pink: createImage(hair_type3_pink),
     hair_type3_red: createImage(hair_type3_red),
     hair_vampire_black: createImage(hair_vampire_black),
+    none: null,
   },
   facial_hair: {
     facialhair_beard_dwarven_blonde: createImage(
@@ -724,6 +731,7 @@ const Thumbnails = {
     facialhair_type1_blonde: createImage(facialhair_type1_blonde),
     facialhair_type1_brown: createImage(facialhair_type1_brown),
     facialhair_type1_red: createImage(facialhair_type1_red),
+    none: null,
   },
   headgear: {
     headgear_antennae: createImage(headgear_antennae),
@@ -761,6 +769,7 @@ const Thumbnails = {
     hedgear_wizard_hat_blue: createImage(hedgear_wizard_hat_blue),
     hedgear_wizard_hat_green: createImage(hedgear_wizard_hat_green),
     hedgear_wizard_hat_purple: createImage(hedgear_wizard_hat_purple),
+    none: null,
   },
   accessory_left: {
     accessory_left_axe_orc: createImage(accessory_left_axe_orc),
@@ -810,6 +819,7 @@ const Thumbnails = {
     accessory_left_watergunl: createImage(accessory_left_watergunl),
     accessory_left_whiterose: createImage(accessory_left_whiterose),
     accessory_mace_knight: createImage(accessory_mace_knight),
+    none: null,
   },
   accessory_right: {
     accessory_dog1: createImage(accessory_dog1),
@@ -826,6 +836,7 @@ const Thumbnails = {
     accessory_right_wolfie: createImage(accessory_right_wolfie),
     accessory_right_zombie: createImage(accessory_right_zombie),
     accessory_roman_shield: createImage(accessory_roman_shield),
+    none: null,
   },
 };
 

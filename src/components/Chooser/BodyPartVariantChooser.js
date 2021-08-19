@@ -13,7 +13,7 @@ const BodyPartVariantChooser = (props) => {
           key={name}
           onClick={() => selectVariant(name)}
         >
-          <img src={image.src} alt={name} />
+          {!!image && <img src={image.src} alt={name} />}
         </button>
       ))}
     </div>
