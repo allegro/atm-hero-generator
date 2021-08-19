@@ -24,12 +24,10 @@
   background-image: url(./btn_item_on.png);
 }
 
-.VariantChooser-button-img {
-  width: 52px;
-  height: 52px;
-  background-position: center;
-  background-size: 200%;
-  background-color: #5ba058;
+.VariantChooser-button img {
+  object-fit: cover;
+  max-width: "52px";
+  max-height: "52px";
 }
 
 .VariantChooser-button:hover > .VariantChooser-button-img {

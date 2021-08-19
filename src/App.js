@@ -38,7 +38,7 @@ function App() {
             bodyPartList={Object.keys(DefaultBodyParts)}
           />
           <BodyPartVariantChooser
-            bodyPartVariants={BodyParts[selectedBodyPart]}
+            selectedBodyPart={selectedBodyPart}
             selectVariant={bodyPartSetState[selectedBodyPart]}
           />
         </div>
