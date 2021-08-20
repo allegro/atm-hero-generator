@@ -6,6 +6,7 @@ import HeroScreen from "./components/Screen/HeroScreen";
 import "./App.css";
 import BodyPartChooser from "./components/Chooser/BodyPartChooser";
 import BodyPartVariantChooser from "./components/Chooser/BodyPartVariantChooser";
+import Chooser from "./components/Chooser/Chooser";
 
 function App() {
   const bodyPartState = {};
@@ -32,13 +33,10 @@ function App() {
             emptyBodyPart={EmptyBodyPart}
             options={{ width: 326, height: 310 }}
           />
-          <BodyPartChooser
+          <Chooser
+            bodyPartList={Object.keys(DefaultBodyParts)}
             selectedBodyPart={selectedBodyPart}
             selectBodyPart={selectBodyPart}
-            bodyPartList={Object.keys(DefaultBodyParts)}
-          />
-          <BodyPartVariantChooser
-            selectedBodyPart={selectedBodyPart}
             selectVariant={bodyPartSetState[selectedBodyPart]}
           />
         </div>

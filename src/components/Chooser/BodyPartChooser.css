@@ -3,6 +3,7 @@
   flex-direction: column;
   background-color: #5ba058;
   padding: 10px;
+  width: fit-content;
 }
 
 .Chooser-container button {

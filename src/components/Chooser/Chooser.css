@@ -1,0 +1,18 @@
+.ChooserScreen {
+  background-image: url(./monitor_right.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-left: 100px;
+  width: 448px;
+  height: 662px;
+  padding-right: 50px;
+}
+
+.ChooserScreen-variants {
+  float: left;
+  height: 320px;
+  overflow: scroll;
+  padding-right: 23px;
+  margin-top: 60px;
+}
