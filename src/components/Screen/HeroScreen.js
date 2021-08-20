@@ -42,8 +42,10 @@ const HeroScreen = (props) => {
   return (
     <div className="HeroScreen-container">
       <canvas ref={canvasRef} />
-      <button className="download" onClick={download} />
-      <a download="hero.png" ref={anchorRef} style={{ display: "none" }}></a>
+      <div className="download-pad">
+        <button className="download" onClick={download} />
+        <a download="hero.png" ref={anchorRef} style={{ display: "none" }}></a>
+      </div>
     </div>
   );
 };
