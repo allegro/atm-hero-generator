@@ -1,11 +1,14 @@
 import { useState } from "react";
 
-import { BodyParts, EmptyBodyPart, DefaultBodyParts } from "./characters";
+import {
+  BodyParts,
+  EmptyBodyPart,
+  DefaultBodyParts,
+  getRandomBodyParts,
+} from "./characters";
 import HeroScreen from "./components/Screen/HeroScreen";
 
 import "./App.css";
-import BodyPartChooser from "./components/Chooser/BodyPartChooser";
-import BodyPartVariantChooser from "./components/Chooser/BodyPartVariantChooser";
 import Chooser from "./components/Chooser/Chooser";
 
 function App() {
@@ -21,7 +24,14 @@ function App() {
     bodyPartSetState[bodyPartName] = setState;
   }
 
-  const [selectedBodyPart, selectBodyPart] = useState("back");
+  const setRandomCharacter = () => {
+    const randomCharacter = getRandomBodyParts();
+    for (const bodyPartName in randomCharacter) {
+      const randomVariant = randomCharacter[bodyPartName];
+      bodyPartSetState[bodyPartName](randomVariant);
+    }
+  };
+  const [selectedBodyPart, selectBodyPart] = useState("top");
 
   return (
     <div className="App">
@@ -38,6 +48,7 @@ function App() {
             selectedBodyPart={selectedBodyPart}
             selectBodyPart={selectBodyPart}
             selectVariant={bodyPartSetState[selectedBodyPart]}
+            setRandomCharacter={setRandomCharacter}
           />
         </div>
       </header>
