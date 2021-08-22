@@ -115,7 +115,7 @@ import shoes_barbarian from "./images/05shoes/05shoes_barbarian.png";
 import shoes_black from "./images/05shoes/05shoes_black.png";
 import shoes_black_boots from "./images/05shoes/05shoes_black_boots.png";
 import shoes_cowboy_brown from "./images/05shoes/05shoes_cowboy_brown.png";
-import shoes_dark_armor from "./images/05shoes/05shoes_dark_armor.png";
+import shoes_darkarmor from "./images/05shoes/05shoes_darkarmor.png";
 import shoes_hunter_boots from "./images/05shoes/05shoes_hunter_boots.png";
 import shoes_knight from "./images/05shoes/05shoes_knight.png";
 import shoes_orc_boots from "./images/05shoes/05shoes_orc_boots.png";
@@ -196,6 +196,7 @@ import eyebrows_type5_blonde from "./images/08eyebrows/08eyebrows_type5_blonde.p
 import eyebrows_type5_brown from "./images/08eyebrows/08eyebrows_type5_brown.png";
 import eyebrows_type5_red from "./images/08eyebrows/08eyebrows_type5_red.png";
 import eyebrows_unibrew from "./images/08eyebrows/08eyebrows_unibrew.png";
+import eyebrows_unimpressed from "./images/08eyebrows/08eyebrows_unimpressed.png";
 import eyegear_aviator from "./images/09eyegear/09eyegear_aviator.png";
 import eyegear_glasses_gold from "./images/09eyegear/09eyegear_glasses_gold.png";
 import eyegear_glasses_round from "./images/09eyegear/09eyegear_glasses_round.png";
@@ -230,7 +231,10 @@ import hair_braids_black from "./images/11hair/11hair_braids_black.png";
 import hair_braids_blonde from "./images/11hair/11hair_braids_blonde.png";
 import hair_braids_red from "./images/11hair/11hair_braids_red.png";
 import hair_brown1 from "./images/11hair/11hair_brown1.png";
+import hair_curled_black from "./images/11hair/11hair_curled_black.png";
 import hair_curled_blonde from "./images/11hair/11hair_curled_blonde.png";
+import hair_curled_brown from "./images/11hair/11hair_curled_brown.png";
+import hair_curled_grey from "./images/11hair/11hair_curled_grey.png";
 import hair_curly_black from "./images/11hair/11hair_curly_black.png";
 import hair_curly_blonde from "./images/11hair/11hair_curly_blonde.png";
 import hair_curly_brown from "./images/11hair/11hair_curly_brown.png";
@@ -272,7 +276,7 @@ import facialhair_beard_dwarven_pale from "./images/12facial_hair/12facialhair_b
 import facialhair_beard_red from "./images/12facial_hair/12facialhair_beard_red.png";
 import facialhair_beard_white from "./images/12facial_hair/12facialhair_beard_white.png";
 import facialhair_blonde_beard from "./images/12facial_hair/12facialhair_blonde_beard.png";
-import facialhair_curled_moustache2 from "./images/12facial_hair/12facialhair_curled_moustache2.png";
+import facialhair_curled_moustache from "./images/12facial_hair/12facialhair_curled_moustache.png";
 import facialhair_dark_beard from "./images/12facial_hair/12facialhair_dark_beard.png";
 import facialhair_fur_grey from "./images/12facial_hair/12facialhair_fur_grey.png";
 import facialhair_fur_orange from "./images/12facial_hair/12facialhair_fur_orange.png";
@@ -325,6 +329,7 @@ import hedgear_fullcap_blue from "./images/13headgear/13hedgear_fullcap_blue.png
 import hedgear_fullcap_green from "./images/13headgear/13hedgear_fullcap_green.png";
 import hedgear_fullcap_red from "./images/13headgear/13hedgear_fullcap_red.png";
 import hedgear_green_helmet from "./images/13headgear/13hedgear_green_helmet.png";
+import hedgear_top_hat_white from "./images/13headgear/13hedgear_top_hat_white.png";
 import hedgear_top_hat from "./images/13headgear/13hedgear_top_hat.png";
 import hedgear_wizard_hat from "./images/13headgear/13hedgear_wizard_hat.png";
 import hedgear_wizard_hat_blue from "./images/13headgear/13hedgear_wizard_hat_blue.png";
@@ -339,11 +344,12 @@ import accessory_left_energysphere from "./images/14accessory_left/14accessory_l
 import accessory_left_fireball from "./images/14accessory_left/14accessory_left_fireball.png";
 import accessory_left_fireballblue from "./images/14accessory_left/14accessory_left_fireballblue.png";
 import accessory_left_fireballgreen from "./images/14accessory_left/14accessory_left_fireballgreen.png";
-import accessory_left_floating_brain from "./images/14accessory_left/14accessory_left_floating_brain.png";
+import accessory_left_floatingbrain from "./images/14accessory_left/14accessory_left_floatingbrain.png";
 import accessory_left_football from "./images/14accessory_left/14accessory_left_football.png";
 import accessory_left_frost from "./images/14accessory_left/14accessory_left_frost.png";
 import accessory_left_gladius from "./images/14accessory_left/14accessory_left_gladius.png";
 import accessory_left_graph from "./images/14accessory_left/14accessory_left_graph.png";
+import accessory_left_heart from "./images/14accessory_left/14accessory_left_heart.png";
 import accessory_left_lightning from "./images/14accessory_left/14accessory_left_lightning.png";
 import accessory_left_magic_alien from "./images/14accessory_left/14accessory_left_magic_alien.png";
 import accessory_left_magic_skull from "./images/14accessory_left/14accessory_left_magic_skull.png";
@@ -532,7 +538,7 @@ const BodyParts = {
     shoes_black: createImage(shoes_black),
     shoes_black_boots: createImage(shoes_black_boots),
     shoes_cowboy_brown: createImage(shoes_cowboy_brown),
-    shoes_dark_armor: createImage(shoes_dark_armor),
+    shoes_darkarmor: createImage(shoes_darkarmor),
     shoes_hunter_boots: createImage(shoes_hunter_boots),
     shoes_knight: createImage(shoes_knight),
     shoes_orc_boots: createImage(shoes_orc_boots),
@@ -620,6 +626,7 @@ const BodyParts = {
     eyebrows_type5_brown: createImage(eyebrows_type5_brown),
     eyebrows_type5_red: createImage(eyebrows_type5_red),
     eyebrows_unibrew: createImage(eyebrows_unibrew),
+    eyebrows_unimpressed: createImage(eyebrows_unimpressed),
     none,
   },
   eyegear: {
@@ -662,7 +669,10 @@ const BodyParts = {
     hair_braids_blonde: createImage(hair_braids_blonde),
     hair_braids_red: createImage(hair_braids_red),
     hair_brown1: createImage(hair_brown1),
+    hair_curled_black: createImage(hair_curled_black),
     hair_curled_blonde: createImage(hair_curled_blonde),
+    hair_curled_brown: createImage(hair_curled_brown),
+    hair_curled_grey: createImage(hair_curled_grey),
     hair_curly_black: createImage(hair_curly_black),
     hair_curly_blonde: createImage(hair_curly_blonde),
     hair_curly_brown: createImage(hair_curly_brown),
@@ -709,7 +719,7 @@ const BodyParts = {
     facialhair_beard_red: createImage(facialhair_beard_red),
     facialhair_beard_white: createImage(facialhair_beard_white),
     facialhair_blonde_beard: createImage(facialhair_blonde_beard),
-    facialhair_curled_moustache2: createImage(facialhair_curled_moustache2),
+    facialhair_curled_moustache: createImage(facialhair_curled_moustache),
     facialhair_dark_beard: createImage(facialhair_dark_beard),
     facialhair_fur_grey: createImage(facialhair_fur_grey),
     facialhair_fur_orange: createImage(facialhair_fur_orange),
@@ -765,6 +775,7 @@ const BodyParts = {
     hedgear_fullcap_green: createImage(hedgear_fullcap_green),
     hedgear_fullcap_red: createImage(hedgear_fullcap_red),
     hedgear_green_helmet: createImage(hedgear_green_helmet),
+    hedgear_top_hat_white: createImage(hedgear_top_hat_white),
     hedgear_top_hat: createImage(hedgear_top_hat),
     hedgear_wizard_hat: createImage(hedgear_wizard_hat),
     hedgear_wizard_hat_blue: createImage(hedgear_wizard_hat_blue),
@@ -782,11 +793,12 @@ const BodyParts = {
     accessory_left_fireball: createImage(accessory_left_fireball),
     accessory_left_fireballblue: createImage(accessory_left_fireballblue),
     accessory_left_fireballgreen: createImage(accessory_left_fireballgreen),
-    accessory_left_floating_brain: createImage(accessory_left_floating_brain),
+    accessory_left_floatingbrain: createImage(accessory_left_floatingbrain),
     accessory_left_football: createImage(accessory_left_football),
     accessory_left_frost: createImage(accessory_left_frost),
     accessory_left_gladius: createImage(accessory_left_gladius),
     accessory_left_graph: createImage(accessory_left_graph),
+    accessory_left_heart: createImage(accessory_left_heart),
     accessory_left_lightning: createImage(accessory_left_lightning),
     accessory_left_magic_alien: createImage(accessory_left_magic_alien),
     accessory_left_magic_skull: createImage(accessory_left_magic_skull),

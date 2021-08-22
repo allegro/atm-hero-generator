@@ -576,7 +576,8 @@ const Thumbnails = {
     eyes_type1_fullpink: createImage(eyes_type1_fullpink),
     eyes_type1_gold: createImage(eyes_type1_gold),
     eyes_type1_green: createImage(eyes_type1_green),
-    eyes_type1_orc: createImage(eyes_type1_orc),
+    //missing main asset
+    //eyes_type1_orc: createImage(eyes_type1_orc),
     eyes_type1_pink: createImage(eyes_type1_pink),
     eyes_type1_red: createImage(eyes_type1_red),
     eyes_type1_vampire: createImage(eyes_type1_vampire),
