@@ -650,6 +650,7 @@ const Thumbnails = {
     mouth_smile2: createImage(mouth_smile2),
     mouth_tongue: createImage(mouth_tongue),
     mouth_tusks: createImage(mouth_tusks),
+    none: null,
   },
   hair: {
     hair_blonde1: createImage(hair_blonde1),

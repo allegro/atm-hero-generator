@@ -659,6 +659,7 @@ const BodyParts = {
     mouth_smile2: createImage(mouth_smile2),
     mouth_tongue: createImage(mouth_tongue),
     mouth_tusks: createImage(mouth_tusks),
+    none,
   },
   hair: {
     hair_blonde1: createImage(hair_blonde1),
@@ -858,6 +859,10 @@ const getRandomVariant = (bodyPart) => {
   return variantNames[Math.floor(Math.random() * variantNames.length)];
 };
 
+const getRandomVariantFromArr = (variantArr) => {
+  return variantArr[Math.floor(Math.random() * variantArr.length)];
+};
+
 const getRandomBodyParts = () => {
   return {
     head: getRandomVariant("head"),
@@ -878,20 +883,20 @@ const getRandomBodyParts = () => {
 };
 
 const DefaultBodyParts = {
-  head: "head_skeleton",
-  body: "body_skeleton",
-  top: getRandomVariant("top"),
-  down: getRandomVariant("down"),
-  eyes: getRandomVariant("eyes"),
+  head: "head_white1",
+  body: getRandomVariantFromArr(["body_white_female", "body_white_male"]),
+  top: none,
+  down: none,
+  eyes: getRandomVariantFromArr(["eyes_type1_blue", "eyes_type1_red"]),
   eyebrows: getRandomVariant("eyebrows"),
   eyegear: none,
-  mouth: getRandomVariant("mouth"),
+  mouth: getRandomVariantFromArr(["mouth_smile1", "mouth_smile2"]),
   hair: getRandomVariant("hair"),
   headgear: none,
-  shoes: getRandomVariant("shoes"),
+  shoes: none,
   facial_hair: none,
-  accessory_left: getRandomVariant("accessory_left"),
-  accessory_right: getRandomVariant("accessory_right"),
+  accessory_left: none,
+  accessory_right: none,
   back: none,
 };
 
