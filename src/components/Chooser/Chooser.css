@@ -1,0 +1,41 @@
+.ChooserScreen {
+  background-image: url(./monitor_right.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-left: 100px;
+  width: 448px;
+  height: 662px;
+  padding-right: 50px;
+  margin-left: 10px;
+}
+
+.ChooserScreen-variants {
+  float: left;
+  height: 320px;
+  overflow: scroll;
+  padding-right: 23px;
+  margin-top: 60px;
+}
+
+.ChooserScreen-random {
+  float: left;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.ChooserScreen-random button {
+  width: 164px;
+  height: 28px;
+  background-image: url(./btn_random_off.png);
+  background-color: #5ba058;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.ChooserScreen-random button:hover {
+  background-image: url(./btn_random_on.png);
+}
