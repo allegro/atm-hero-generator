@@ -1,6 +1,6 @@
 {
   "name": "atm-21-generator",
-  "homepage": "https://tauzen.github.io/generator-experiments",
+  "homepage": "https://atm-hero-generator.allegro.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
