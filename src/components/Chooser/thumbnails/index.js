@@ -314,7 +314,7 @@ import facialhair_blonde_beard from "./images/12facial_hair/12facialhair_blonde_
 import facialhair_curled_moustache from "./images/12facial_hair/12facialhair_curled_moustache2.png";
 import facialhair_dark_beard from "./images/12facial_hair/12facialhair_dark_beard.png";
 import facialhair_fur_grey from "./images/12facial_hair/12facialhair_fur_grey.png";
-import facialhair_fur_orange from "./images/12facial_hair/12facialhair_fur_orange.png";
+// import facialhair_fur_orange from "./images/12facial_hair/12facialhair_fur_orange.png";
 import facialhair_goatie_black from "./images/12facial_hair/12facialhair_goatie_black.png";
 import facialhair_goatie_blonde from "./images/12facial_hair/12facialhair_goatie_blonde.png";
 import facialhair_goatie_brown from "./images/12facial_hair/12facialhair_goatie_brown.png";
@@ -804,7 +804,7 @@ const Thumbnails = {
     facialhair_curled_moustache: createImage(facialhair_curled_moustache),
     facialhair_dark_beard: createImage(facialhair_dark_beard),
     facialhair_fur_grey: createImage(facialhair_fur_grey),
-    facialhair_fur_orange: createImage(facialhair_fur_orange),
+    // facialhair_fur_orange: createImage(facialhair_fur_orange),
     facialhair_goatie_black: createImage(facialhair_goatie_black),
     facialhair_goatie_blonde: createImage(facialhair_goatie_blonde),
     facialhair_goatie_brown: createImage(facialhair_goatie_brown),
