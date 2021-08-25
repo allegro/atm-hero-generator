@@ -172,7 +172,7 @@ import eyes_type1_fullgreen from "./images/07eyes/07eyes_type1_fullgreen.png";
 import eyes_type1_fullpink from "./images/07eyes/07eyes_type1_fullpink.png";
 import eyes_type1_gold from "./images/07eyes/07eyes_type1_gold.png";
 import eyes_type1_green from "./images/07eyes/07eyes_type1_green.png";
-import eyes_type1_orc from "./images/07eyes/07eyes_type1_orc.png";
+// import eyes_type1_orc from "./images/07eyes/07eyes_type1_orc.png";
 import eyes_type1_pink from "./images/07eyes/07eyes_type1_pink.png";
 import eyes_type1_red from "./images/07eyes/07eyes_type1_red.png";
 import eyes_type1_vampire from "./images/07eyes/07eyes_type1_vampire.png";
