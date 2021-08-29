@@ -4,6 +4,7 @@
   background-image: url(./monitor_left.png);
   background-position: top;
   background-repeat: no-repeat;
+  padding: 0 10px;
 }
 
 canvas {
