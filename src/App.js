@@ -35,23 +35,19 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <div style={{ display: "flex", flexWrap: "wrap", alignItems: "start" }}>
-          <HeroScreen
-            bodyParts={BodyParts}
-            bodyPartState={bodyPartState}
-            emptyBodyPart={EmptyBodyPart}
-            options={{ width: 326, height: 310 }}
-          />
-          <Chooser
-            bodyPartList={Object.keys(DefaultBodyParts)}
-            selectedBodyPart={selectedBodyPart}
-            selectBodyPart={selectBodyPart}
-            selectVariant={bodyPartSetState[selectedBodyPart]}
-            setRandomCharacter={setRandomCharacter}
-          />
-        </div>
-      </header>
+      <HeroScreen
+        bodyParts={BodyParts}
+        bodyPartState={bodyPartState}
+        emptyBodyPart={EmptyBodyPart}
+        options={{ width: 326, height: 310 }}
+      />
+      <Chooser
+        bodyPartList={Object.keys(DefaultBodyParts)}
+        selectedBodyPart={selectedBodyPart}
+        selectBodyPart={selectBodyPart}
+        selectVariant={bodyPartSetState[selectedBodyPart]}
+        setRandomCharacter={setRandomCharacter}
+      />
     </div>
   );
 }
