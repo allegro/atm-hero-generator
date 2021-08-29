@@ -1,6 +1,12 @@
+:root {
+  background-color: #353168;
+  background-image: url(./bg.png);
+  background-repeat: repeat-x;
+  text-align: center;
+}
+
 .App {
   text-align: center;
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -10,7 +16,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
   min-width: 600px;
-  padding-top: 10vh;
 }
 
 button {
@@ -21,4 +26,8 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+header {
+  margin: 1vh 0;
 }

@@ -7,9 +7,10 @@ import {
   getRandomBodyParts,
 } from "./characters";
 import HeroScreen from "./components/Screen/HeroScreen";
-
-import "./App.css";
 import Chooser from "./components/Chooser/Chooser";
+
+import logo from "./logo.png";
+import "./App.css";
 
 function App() {
   const bodyPartState = {};
@@ -34,20 +35,25 @@ function App() {
   const [selectedBodyPart, selectBodyPart] = useState("top");
 
   return (
-    <div className="App">
-      <HeroScreen
-        bodyParts={BodyParts}
-        bodyPartState={bodyPartState}
-        emptyBodyPart={EmptyBodyPart}
-        options={{ width: 326, height: 310 }}
-      />
-      <Chooser
-        bodyPartList={Object.keys(DefaultBodyParts)}
-        selectedBodyPart={selectedBodyPart}
-        selectBodyPart={selectBodyPart}
-        selectVariant={bodyPartSetState[selectedBodyPart]}
-        setRandomCharacter={setRandomCharacter}
-      />
+    <div>
+      <header>
+        <img src={logo} alt="Allegro Tech Meeting 14"></img>
+      </header>
+      <div className="App">
+        <HeroScreen
+          bodyParts={BodyParts}
+          bodyPartState={bodyPartState}
+          emptyBodyPart={EmptyBodyPart}
+          options={{ width: 326, height: 310 }}
+        />
+        <Chooser
+          bodyPartList={Object.keys(DefaultBodyParts)}
+          selectedBodyPart={selectedBodyPart}
+          selectBodyPart={selectBodyPart}
+          selectVariant={bodyPartSetState[selectedBodyPart]}
+          setRandomCharacter={setRandomCharacter}
+        />
+      </div>
     </div>
   );
 }
