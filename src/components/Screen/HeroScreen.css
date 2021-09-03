@@ -17,10 +17,12 @@ button.download {
   height: 66px;
   background-image: url(./btn_download_off.png);
   background-color: #b1a0b4;
+  animation: 2s linear 0s infinite running button-press;
 }
 
 button.download:hover {
   background-image: url(./btn_download_on.png);
+  animation: none;
 }
 
 .download-pad {
@@ -29,4 +31,18 @@ button.download:hover {
   background-image: url(./download_console.png);
   background-position: top;
   background-repeat: no-repeat;
+}
+
+@keyframes button-press {
+  75% {
+    background-image: url(./btn_download_off.png);
+  }
+
+  76% {
+    background-image: url(./btn_download_on.png);
+  }
+
+  100% {
+    background-image: url(./btn_download_on.png);
+  }
 }
