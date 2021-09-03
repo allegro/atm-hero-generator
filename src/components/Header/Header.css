@@ -1,0 +1,38 @@
+.clouds {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.cloud {
+  position: relative;
+  left: -100%;
+}
+
+.cloud-slow {
+  animation: 90s linear 0s infinite running flowing-clouds;
+  z-index: -1;
+}
+
+.cloud-regular {
+  animation: 65s linear 1s infinite running flowing-clouds;
+  z-index: -3;
+  transform: scale(1.5);
+}
+
+.cloud-fast {
+  animation: 50s linear 2s infinite running flowing-clouds;
+  z-index: -2;
+}
+
+@keyframes flowing-clouds {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}

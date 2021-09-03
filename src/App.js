@@ -6,10 +6,10 @@ import {
   DefaultBodyParts,
   getRandomBodyParts,
 } from "./characters";
-import HeroScreen from "./components/Screen/HeroScreen";
 import Chooser from "./components/Chooser/Chooser";
+import Header from "./components/Header/Header";
+import HeroScreen from "./components/Screen/HeroScreen";
 
-import logo from "./logo.png";
 import "./App.css";
 
 function App() {
@@ -36,9 +36,7 @@ function App() {
 
   return (
     <div>
-      <header>
-        <img src={logo} alt="Allegro Tech Meeting 14"></img>
-      </header>
+      <Header />
       <div className="App">
         <HeroScreen
           bodyParts={BodyParts}
