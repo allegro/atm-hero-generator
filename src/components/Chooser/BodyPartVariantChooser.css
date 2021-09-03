@@ -19,7 +19,8 @@
   margin-bottom: 5px;
 }
 
-.VariantChooser-button:hover {
+.VariantChooser-button:hover,
+.selected {
   background-image: url(./btn_item_on.png);
 }
 

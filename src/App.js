@@ -48,6 +48,7 @@ function App() {
           bodyPartList={Object.keys(DefaultBodyParts)}
           selectedBodyPart={selectedBodyPart}
           selectBodyPart={selectBodyPart}
+          selectedVariant={bodyPartState[selectedBodyPart]}
           selectVariant={bodyPartSetState[selectedBodyPart]}
           setRandomCharacter={setRandomCharacter}
         />

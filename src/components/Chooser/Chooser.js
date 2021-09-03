@@ -7,6 +7,7 @@ const Chooser = (props) => {
     bodyPartList,
     selectedBodyPart,
     selectBodyPart,
+    selectedVariant,
     selectVariant,
     setRandomCharacter,
   } = props;
@@ -16,6 +17,7 @@ const Chooser = (props) => {
       <div className="ChooserScreen-variants">
         <BodyPartVariantChooser
           selectedBodyPart={selectedBodyPart}
+          selectedVariant={selectedVariant}
           selectVariant={selectVariant}
         />
       </div>
