@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4fee4d99.chunk.css",
-    "main.js": "/static/js/main.0d67a7f2.chunk.js",
-    "main.js.map": "/static/js/main.0d67a7f2.chunk.js.map",
+    "main.js": "/static/js/main.c11b47ae.chunk.js",
+    "main.js.map": "/static/js/main.c11b47ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ca50b668.js",
     "runtime-main.js.map": "/static/js/runtime-main.ca50b668.js.map",
     "static/js/2.8f665172.chunk.js": "/static/js/2.8f665172.chunk.js",
@@ -26,6 +26,7 @@
     "static/media/01back_cape_pink.a6052d3f.png": "/static/media/01back_cape_pink.a6052d3f.png",
     "static/media/01back_cape_red.f9244bf9.png": "/static/media/01back_cape_red.f9244bf9.png",
     "static/media/01back_cape_white.1d069ddb.png": "/static/media/01back_cape_white.1d069ddb.png",
+    "static/media/01back_future_wings.05949bae.png": "/static/media/01back_future_wings.05949bae.png",
     "static/media/01back_robothand.10d5db96.png": "/static/media/01back_robothand.10d5db96.png",
     "static/media/01back_robothand.27f821ba.png": "/static/media/01back_robothand.27f821ba.png",
     "static/media/01back_tail_devilish.15739f59.png": "/static/media/01back_tail_devilish.15739f59.png",
@@ -127,19 +128,12 @@
     "static/media/03top_suit_space.41666bb5.png": "/static/media/03top_suit_space.41666bb5.png",
     "static/media/03top_suit_space.d6be0d87.png": "/static/media/03top_suit_space.d6be0d87.png",
     "static/media/03top_tanktop_blue.33bf7b98.png": "/static/media/03top_tanktop_blue.33bf7b98.png",
-    "static/media/03top_tanktop_blue.f4595a13.png": "/static/media/03top_tanktop_blue.f4595a13.png",
     "static/media/03top_tanktop_dark.589dd651.png": "/static/media/03top_tanktop_dark.589dd651.png",
-    "static/media/03top_tanktop_dark.d359c42b.png": "/static/media/03top_tanktop_dark.d359c42b.png",
-    "static/media/03top_tanktop_green.50eab422.png": "/static/media/03top_tanktop_green.50eab422.png",
     "static/media/03top_tanktop_green.dc762dac.png": "/static/media/03top_tanktop_green.dc762dac.png",
-    "static/media/03top_tanktop_purple.695eef4d.png": "/static/media/03top_tanktop_purple.695eef4d.png",
     "static/media/03top_tanktop_purple.a1f862f1.png": "/static/media/03top_tanktop_purple.a1f862f1.png",
     "static/media/03top_tanktop_red.4ca8349b.png": "/static/media/03top_tanktop_red.4ca8349b.png",
-    "static/media/03top_tanktop_red.e1fec821.png": "/static/media/03top_tanktop_red.e1fec821.png",
-    "static/media/03top_tanktop_white.26be0d68.png": "/static/media/03top_tanktop_white.26be0d68.png",
     "static/media/03top_tanktop_white.d9c67b03.png": "/static/media/03top_tanktop_white.d9c67b03.png",
     "static/media/03top_tanktop_yellow.275286fc.png": "/static/media/03top_tanktop_yellow.275286fc.png",
-    "static/media/03top_tanktop_yellow.30590be9.png": "/static/media/03top_tanktop_yellow.30590be9.png",
     "static/media/03top_vest_red.1710f9a5.png": "/static/media/03top_vest_red.1710f9a5.png",
     "static/media/03top_vest_red.27bbac7d.png": "/static/media/03top_vest_red.27bbac7d.png",
     "static/media/03top_white_dress.54be8a9f.png": "/static/media/03top_white_dress.54be8a9f.png",
@@ -524,6 +518,6 @@
     "static/js/runtime-main.ca50b668.js",
     "static/js/2.8f665172.chunk.js",
     "static/css/main.4fee4d99.chunk.css",
-    "static/js/main.0d67a7f2.chunk.js"
+    "static/js/main.c11b47ae.chunk.js"
   ]
 }
