@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4fee4d99.chunk.css",
-    "main.js": "/static/js/main.c11b47ae.chunk.js",
-    "main.js.map": "/static/js/main.c11b47ae.chunk.js.map",
+    "main.js": "/static/js/main.bf1b528d.chunk.js",
+    "main.js.map": "/static/js/main.bf1b528d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ca50b668.js",
     "runtime-main.js.map": "/static/js/runtime-main.ca50b668.js.map",
     "static/js/2.8f665172.chunk.js": "/static/js/2.8f665172.chunk.js",
@@ -67,6 +67,7 @@
     "static/media/02body_white_female.898b667f.png": "/static/media/02body_white_female.898b667f.png",
     "static/media/02body_white_male.7e06d870.png": "/static/media/02body_white_male.7e06d870.png",
     "static/media/02body_white_male.c00dff0b.png": "/static/media/02body_white_male.c00dff0b.png",
+    "static/media/03top_allegro_hoodie.f32421e9.png": "/static/media/03top_allegro_hoodie.f32421e9.png",
     "static/media/03top_armor_assassin.9e727757.png": "/static/media/03top_armor_assassin.9e727757.png",
     "static/media/03top_armor_assassin.e347e748.png": "/static/media/03top_armor_assassin.e347e748.png",
     "static/media/03top_armor_barbarian.7784be9e.png": "/static/media/03top_armor_barbarian.7784be9e.png",
@@ -197,6 +198,7 @@
     "static/media/06head_black.3175f1f6.png": "/static/media/06head_black.3175f1f6.png",
     "static/media/06head_blue1.57ae03f4.png": "/static/media/06head_blue1.57ae03f4.png",
     "static/media/06head_blue1.83d3ca73.png": "/static/media/06head_blue1.83d3ca73.png",
+    "static/media/06head_elf.57b11956.png": "/static/media/06head_elf.57b11956.png",
     "static/media/06head_lizard.d9c0e0a6.png": "/static/media/06head_lizard.d9c0e0a6.png",
     "static/media/06head_lizard.eca611a8.png": "/static/media/06head_lizard.eca611a8.png",
     "static/media/06head_orc.7031b512.png": "/static/media/06head_orc.7031b512.png",
@@ -518,6 +520,6 @@
     "static/js/runtime-main.ca50b668.js",
     "static/js/2.8f665172.chunk.js",
     "static/css/main.4fee4d99.chunk.css",
-    "static/js/main.c11b47ae.chunk.js"
+    "static/js/main.bf1b528d.chunk.js"
   ]
 }
