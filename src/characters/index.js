@@ -40,6 +40,7 @@ import body_skeleton from "./images/02body/02body_skeleton.png";
 import body_white_female from "./images/02body/02body_white_female.png";
 import body_white_male from "./images/02body/02body_white_male.png";
 import top_allegro_blouse from "./images/03top/03top_allegro_blouse.png";
+import top_allegro_hoodie from "./images/03top/03top_allegro_hoodie.png";
 import top_allegro_tshirt from "./images/03top/03top_allegro_tshirt.png";
 import top_armor_assassin from "./images/03top/03top_armor_assassin.png";
 import top_armor_barbarian from "./images/03top/03top_armor_barbarian.png";
@@ -154,6 +155,7 @@ import shoes_sneakers2 from "./images/05shoes/05shoes_sneakers2.png";
 import shoes_suit_space from "./images/05shoes/05shoes_suit_space.png";
 import head_black from "./images/06head/06head_black.png";
 import head_blue1 from "./images/06head/06head_blue1.png";
+import head_elf from "./images/06head/06head_elf.png";
 import head_fur_grey from "./images/06head/06head_fur_grey.png";
 import head_fur_orange from "./images/06head/06head_fur_orange.png";
 import head_lime from "./images/06head/06head_lime.png";
@@ -330,7 +332,7 @@ import facialhair_blonde_beard from "./images/12facial_hair/12facialhair_blonde_
 import facialhair_curled_moustache2 from "./images/12facial_hair/12facialhair_curled_moustache2.png";
 import facialhair_dark_beard from "./images/12facial_hair/12facialhair_dark_beard.png";
 import facialhair_fur_grey from "./images/12facial_hair/12facialhair_fur_grey.png";
-// import facialhair_fur_orange from "./images/12facial_hair/12facialhair_fur_orange.png";
+import facialhair_fur_orange from "./images/12facial_hair/12facialhair_fur_orange.png";
 import facialhair_goatie_black from "./images/12facial_hair/12facialhair_goatie_black.png";
 import facialhair_goatie_blonde from "./images/12facial_hair/12facialhair_goatie_blonde.png";
 import facialhair_goatie_brown from "./images/12facial_hair/12facialhair_goatie_brown.png";
@@ -524,6 +526,7 @@ const BodyParts = {
   },
   top: {
     top_allegro_blouse: createImage(top_allegro_blouse),
+    top_allegro_hoodie: createImage(top_allegro_hoodie),
     top_allegro_tshirt: createImage(top_allegro_tshirt),
     top_armor_assassin: createImage(top_armor_assassin),
     top_armor_barbarian: createImage(top_armor_barbarian),
@@ -644,6 +647,7 @@ const BodyParts = {
   head: {
     head_black: createImage(head_black),
     head_blue1: createImage(head_blue1),
+    head_elf: createImage(head_elf),
     head_fur_grey: createImage(head_fur_grey),
     head_fur_orange: createImage(head_fur_orange),
     head_lime: createImage(head_lime),
@@ -834,7 +838,7 @@ const BodyParts = {
     facialhair_curled_moustache2: createImage(facialhair_curled_moustache2),
     facialhair_dark_beard: createImage(facialhair_dark_beard),
     facialhair_fur_grey: createImage(facialhair_fur_grey),
-    // facialhair_fur_orange: createImage(facialhair_fur_orange),
+    facialhair_fur_orange: createImage(facialhair_fur_orange),
     facialhair_goatie_black: createImage(facialhair_goatie_black),
     facialhair_goatie_blonde: createImage(facialhair_goatie_blonde),
     facialhair_goatie_brown: createImage(facialhair_goatie_brown),

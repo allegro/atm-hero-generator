@@ -23,8 +23,7 @@ import body_blue_male from "./images/02body/02body_blue_male.png";
 import body_elf_FEmale from "./images/02body/02body_elf_FEmale.png";
 import body_elf_male from "./images/02body/02body_elf_male.png";
 import body_fur_grey from "./images/02body/02body_fur_grey.png";
-// missing asset
-// import body_fur_orange from "./images/02body/02body_fur_orange.png";
+import body_fur_orange from "./images/02body/02body_fur_orange.png";
 import body_green_female from "./images/02body/02body_green_female.png";
 import body_green_male from "./images/02body/02body_green_male.png";
 import body_lime_female from "./images/02body/02body_lime_female.png";
@@ -41,6 +40,7 @@ import body_skeleton from "./images/02body/02body_skeleton.png";
 import body_white_female from "./images/02body/02body_white_female.png";
 import body_white_male from "./images/02body/02body_white_male.png";
 import top_allegro_blouse from "./images/03top/03top_allegro_blouse.png";
+import top_allegro_hoodie from "./images/03top/03top_allegro_hoodie.png";
 import top_allegro_tshirt from "./images/03top/03top_allegro_tshirt.png";
 import top_armor_assassin from "./images/03top/03top_armor_assassin.png";
 import top_armor_barbarian from "./images/03top/03top_armor_barbarian.png";
@@ -111,7 +111,6 @@ import down_adventure from "./images/04down/04down_adventure.png";
 import down_armor_barbarian from "./images/04down/04down_armor_barbarian.png";
 import down_black_pants from "./images/04down/04down_black_pants.png";
 import down_cyber_pants from "./images/04down/04down_cyber_pants.png";
-// missing asset
 import down_dark_armor from "./images/04down/04down_dark_armor.png";
 import down_dress_black from "./images/04down/04down_dress_black.png";
 import down_dress_red from "./images/04down/04down_dress_red.png";
@@ -156,6 +155,7 @@ import shoes_sneakers2 from "./images/05shoes/05shoes_sneakers2.png";
 import shoes_suit_space from "./images/05shoes/05shoes_suit_space.png";
 import head_black from "./images/06head/06head_black.png";
 import head_blue1 from "./images/06head/06head_blue1.png";
+import head_elf from "./images/06head/06head_elf.png";
 import head_fur_grey from "./images/06head/06head_fur_grey.png";
 import head_fur_orange from "./images/06head/06head_fur_orange.png";
 import head_lime from "./images/06head/06head_lime.png";
@@ -225,12 +225,11 @@ import eyebrows_type5_red from "./images/08eyebrows/08eyebrows_type5_red.png";
 import eyebrows_unibrew from "./images/08eyebrows/08eyebrows_unibrew.png";
 import eyebrows_unimpressed from "./images/08eyebrows/08eyebrows_unimpressed.png";
 import eyegear_aviator from "./images/09eyegear/09eyegear_aviator.png";
-// missing assets
-// import eyegear_cyber1_blue from "./images/09eyegear/09eyegear_cyber1_blue.png";
-// import eyegear_cyber1_red from "./images/09eyegear/09eyegear_cyber1_red.png";
-// import eyegear_cyber2_blue from "./images/09eyegear/09eyegear_cyber2_blue.png";
-// import eyegear_cyber2_red from "./images/09eyegear/09eyegear_cyber2_red.png";
-// import eyegear_eyepatch from "./images/09eyegear/09eyegear_eyepatch.png";
+import eyegear_cyber1_blue from "./images/09eyegear/09eyegear_cyber1_blue.png";
+import eyegear_cyber1_red from "./images/09eyegear/09eyegear_cyber1_red.png";
+import eyegear_cyber2_blue from "./images/09eyegear/09eyegear_cyber2_blue.png";
+import eyegear_cyber2_red from "./images/09eyegear/09eyegear_cyber2_red.png";
+import eyegear_eyepatch from "./images/09eyegear/09eyegear_eyepatch.png";
 import eyegear_glasses_gold from "./images/09eyegear/09eyegear_glasses_gold.png";
 import eyegear_glasses_round from "./images/09eyegear/09eyegear_glasses_round.png";
 import eyegear_glasses_square from "./images/09eyegear/09eyegear_glasses_square.png";
@@ -249,7 +248,7 @@ import mouth_grumpy from "./images/10mouth/10mouth_grumpy.png";
 import mouth_lips_black from "./images/10mouth/10mouth_lips_black.png";
 import mouth_lips_green from "./images/10mouth/10mouth_lips_green.png";
 import mouth_lips_red from "./images/10mouth/10mouth_lips_red.png";
-// import mouth_lips_red2 from "./images/10mouth/10mouth_lips_red2.png";
+import mouth_lips_red2 from "./images/10mouth/10mouth_lips_red2.png";
 import mouth_open from "./images/10mouth/10mouth_open.png";
 import mouth_sad from "./images/10mouth/10mouth_sad.png";
 import mouth_scary1 from "./images/10mouth/10mouth_scary1.png";
@@ -333,8 +332,7 @@ import facialhair_blonde_beard from "./images/12facial_hair/12facialhair_blonde_
 import facialhair_curled_moustache2 from "./images/12facial_hair/12facialhair_curled_moustache2.png";
 import facialhair_dark_beard from "./images/12facial_hair/12facialhair_dark_beard.png";
 import facialhair_fur_grey from "./images/12facial_hair/12facialhair_fur_grey.png";
-// wrong placement
-// import facialhair_fur_orange from "./images/12facial_hair/12facialhair_fur_orange.png";
+import facialhair_fur_orange from "./images/12facial_hair/12facialhair_fur_orange.png";
 import facialhair_goatie_black from "./images/12facial_hair/12facialhair_goatie_black.png";
 import facialhair_goatie_blonde from "./images/12facial_hair/12facialhair_goatie_blonde.png";
 import facialhair_goatie_brown from "./images/12facial_hair/12facialhair_goatie_brown.png";
@@ -373,8 +371,7 @@ import headgear_hood_skull from "./images/13headgear/13headgear_hood_skull.png";
 import headgear_hood_white from "./images/13headgear/13headgear_hood_white.png";
 import headgear_horns_curled_bone from "./images/13headgear/13headgear_horns_curled_bone.png";
 import headgear_horns_curled_dark from "./images/13headgear/13headgear_horns_curled_dark.png";
-// missing asset
-// import headgear_horns_curled_red from "./images/13headgear/13headgear_horns_curled_red.png";
+import headgear_horns_curled_red from "./images/13headgear/13headgear_horns_curled_red.png";
 import headgear_horns_short_bone from "./images/13headgear/13headgear_horns_short_bone.png";
 import headgear_horns_short_dark from "./images/13headgear/13headgear_horns_short_dark.png";
 import headgear_horns_short_red from "./images/13headgear/13headgear_horns_short_red.png";
@@ -394,8 +391,6 @@ import hedgear_green_helmet from "./images/13headgear/13hedgear_green_helmet.png
 import hedgear_shaman from "./images/13headgear/13hedgear_shaman.png";
 import hedgear_top_hat from "./images/13headgear/13hedgear_top_hat.png";
 import hedgear_top_hat_white from "./images/13headgear/13hedgear_top_hat_white.png";
-// missing asset
-// import hedgear_wizard_hat from "./images/13headgear/13hedgear_wizard_hat.png";
 import hedgear_wizard_hat_blue from "./images/13headgear/13hedgear_wizard_hat_blue.png";
 import hedgear_wizard_hat_green from "./images/13headgear/13hedgear_wizard_hat_green.png";
 import hedgear_wizard_hat_purple from "./images/13headgear/13hedgear_wizard_hat_purple.png";
@@ -506,7 +501,7 @@ const Thumbnails = {
     body_elf_FEmale: createImage(body_elf_FEmale),
     body_elf_male: createImage(body_elf_male),
     body_fur_grey: createImage(body_fur_grey),
-    // body_fur_orange: createImage(body_fur_orange),
+    body_fur_orange: createImage(body_fur_orange),
     body_green_female: createImage(body_green_female),
     body_green_male: createImage(body_green_male),
     body_lime_female: createImage(body_lime_female),
@@ -525,6 +520,7 @@ const Thumbnails = {
   },
   top: {
     top_allegro_blouse: createImage(top_allegro_blouse),
+    top_allegro_hoodie: createImage(top_allegro_hoodie),
     top_allegro_tshirt: createImage(top_allegro_tshirt),
     top_armor_assassin: createImage(top_armor_assassin),
     top_armor_barbarian: createImage(top_armor_barbarian),
@@ -648,6 +644,7 @@ const Thumbnails = {
   head: {
     head_black: createImage(head_black),
     head_blue1: createImage(head_blue1),
+    head_elf: createImage(head_elf),
     head_fur_grey: createImage(head_fur_grey),
     head_fur_orange: createImage(head_fur_orange),
     head_lime: createImage(head_lime),
@@ -724,12 +721,11 @@ const Thumbnails = {
   },
   eyegear: {
     eyegear_aviator: createImage(eyegear_aviator),
-    /* missing assets 
     eyegear_cyber1_blue: createImage(eyegear_cyber1_blue),
     eyegear_cyber1_red: createImage(eyegear_cyber1_red),
     eyegear_cyber2_blue: createImage(eyegear_cyber2_blue),
     eyegear_cyber2_red: createImage(eyegear_cyber2_red),
-    eyegear_eyepatch: createImage(eyegear_eyepatch), */
+    eyegear_eyepatch: createImage(eyegear_eyepatch),
     eyegear_glasses_gold: createImage(eyegear_glasses_gold),
     eyegear_glasses_round: createImage(eyegear_glasses_round),
     eyegear_glasses_square: createImage(eyegear_glasses_square),
@@ -751,7 +747,7 @@ const Thumbnails = {
     mouth_lips_black: createImage(mouth_lips_black),
     mouth_lips_green: createImage(mouth_lips_green),
     mouth_lips_red: createImage(mouth_lips_red),
-    // mouth_lips_red2: createImage(mouth_lips_red2),
+    mouth_lips_red2: createImage(mouth_lips_red2),
     mouth_open: createImage(mouth_open),
     mouth_sad: createImage(mouth_sad),
     mouth_scary1: createImage(mouth_scary1),
@@ -843,7 +839,7 @@ const Thumbnails = {
     facialhair_curled_moustache2: createImage(facialhair_curled_moustache2),
     facialhair_dark_beard: createImage(facialhair_dark_beard),
     facialhair_fur_grey: createImage(facialhair_fur_grey),
-    // facialhair_fur_orange: createImage(facialhair_fur_orange),
+    facialhair_fur_orange: createImage(facialhair_fur_orange),
     facialhair_goatie_black: createImage(facialhair_goatie_black),
     facialhair_goatie_blonde: createImage(facialhair_goatie_blonde),
     facialhair_goatie_brown: createImage(facialhair_goatie_brown),
@@ -885,7 +881,7 @@ const Thumbnails = {
     headgear_hood_white: createImage(headgear_hood_white),
     headgear_horns_curled_bone: createImage(headgear_horns_curled_bone),
     headgear_horns_curled_dark: createImage(headgear_horns_curled_dark),
-    // headgear_horns_curled_red: createImage(headgear_horns_curled_red),
+    headgear_horns_curled_red: createImage(headgear_horns_curled_red),
     headgear_horns_short_bone: createImage(headgear_horns_short_bone),
     headgear_horns_short_dark: createImage(headgear_horns_short_dark),
     headgear_horns_short_red: createImage(headgear_horns_short_red),
@@ -905,7 +901,6 @@ const Thumbnails = {
     hedgear_shaman: createImage(hedgear_shaman),
     hedgear_top_hat: createImage(hedgear_top_hat),
     hedgear_top_hat_white: createImage(hedgear_top_hat_white),
-    // hedgear_wizard_hat: createImage(hedgear_wizard_hat),
     hedgear_wizard_hat_blue: createImage(hedgear_wizard_hat_blue),
     hedgear_wizard_hat_green: createImage(hedgear_wizard_hat_green),
     hedgear_wizard_hat_purple: createImage(hedgear_wizard_hat_purple),
