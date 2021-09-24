@@ -4,6 +4,10 @@ import { useRef } from "react";
 import useCanvas from "./useCanvas";
 
 import "./HeroScreen.css";
+import allegroTechLogo from "./allegro-tech-logo.png";
+
+const allegroTechImg = new Image();
+allegroTechImg.src = allegroTechLogo;
 
 const HeroScreen = (props) => {
   const { bodyParts, bodyPartState, emptyBodyPart, options } = props;
@@ -26,10 +30,16 @@ const HeroScreen = (props) => {
     }
   };
 
+  const drawLogo = (canvas) => {
+    canvas.getContext("2d").drawImage(allegroTechImg, 200, 5, 120, 25);
+  };
+
   const canvasRef = useCanvas(draw, options);
   const anchorRef = useRef(null);
 
   const download = () => {
+    drawLogo(canvasRef.current);
+
     anchorRef.current.setAttribute(
       "href",
       canvasRef.current
