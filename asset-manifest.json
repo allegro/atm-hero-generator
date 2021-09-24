@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4fee4d99.chunk.css",
-    "main.js": "/static/js/main.bf1b528d.chunk.js",
-    "main.js.map": "/static/js/main.bf1b528d.chunk.js.map",
+    "main.js": "/static/js/main.20e70c5b.chunk.js",
+    "main.js.map": "/static/js/main.20e70c5b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ca50b668.js",
     "runtime-main.js.map": "/static/js/runtime-main.ca50b668.js.map",
     "static/js/2.8f665172.chunk.js": "/static/js/2.8f665172.chunk.js",
@@ -514,12 +514,13 @@
     "static/media/15accessory_right_snake.02947a47.png": "/static/media/15accessory_right_snake.02947a47.png",
     "static/media/15accessory_right_white_rabbit.c7617974.png": "/static/media/15accessory_right_white_rabbit.c7617974.png",
     "static/media/15accessory_right_wolfie.6cb4f351.png": "/static/media/15accessory_right_wolfie.6cb4f351.png",
-    "static/media/15accessory_roman_shield.955e6438.png": "/static/media/15accessory_roman_shield.955e6438.png"
+    "static/media/15accessory_roman_shield.955e6438.png": "/static/media/15accessory_roman_shield.955e6438.png",
+    "static/media/allegro-tech-logo.ae353654.png": "/static/media/allegro-tech-logo.ae353654.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ca50b668.js",
     "static/js/2.8f665172.chunk.js",
     "static/css/main.4fee4d99.chunk.css",
-    "static/js/main.bf1b528d.chunk.js"
+    "static/js/main.20e70c5b.chunk.js"
   ]
 }
